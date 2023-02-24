@@ -16,6 +16,6 @@ function writeToFile(fileName, data) {
 function init() {
 
 }
-
+a
 // function call to initialize program
 init();
