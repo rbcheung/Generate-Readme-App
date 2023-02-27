@@ -1,8 +1,6 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# generator
   ## Description
-  ${data.description}
+  create readme
   ## Table of Contents
   * [Description] (#description)
   * [Installation] (#installation)
@@ -13,28 +11,23 @@ function generateMarkdown(data) {
   * [Questions] (#questions)
   ## Installation
   To install necessary dependencies, run the following command:
-  \`\`\`
-  ${data.installation}
-
-  \`\`\`
+  ```
+  npm i
+  ```
   ## Usage
   To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it.
   Then, using the relative filepath, add it to your README using the following syntax:
-  \`\`\`md
-  ![alt text](assets/images/${data.usage})
-  \`\`\`
+  ```md
+  ![alt text](assets/images/)
+  ```
   ## Licence
-  ${data.licence}
+  undefined
   ## Contributing
-  ${data.contributing}
+  undefined
   ## Tests
-  ${data.tests}
+  np i
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.username}
+  rbcheung
   
 
 
-`;
-}
-
-module.exports = generateMarkdown;
