@@ -1,7 +1,7 @@
 # Generate-Readme-App
 
 ## My Task
-This project was setup tp help us practice our skills with node. In previous lessons we learnt about getting node setup, npms installed, using the file system and using template strings and this project allowed us to combine these skills into something more practical.
+This project was setup to help us practice our skills with node. In previous lessons we learnt about getting node setup, npms installed, using the file system and using template strings and this project allowed us to combine these skills into something more practical.
 
 This project required us to hit the following requirements;
 
