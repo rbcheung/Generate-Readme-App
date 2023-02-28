@@ -5,13 +5,13 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
   ## Table of Contents
-  * [Description] (#description)
-  * [Installation] (#installation)
-  * [Usage] (#usage)
-  * [Licence] (#licence)
-  * [Contributing] (#contributing)
-  * [Tests] (#tests)
-  * [Questions] (#questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licence](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Installation
   To install necessary dependencies, run the following command:
   \`\`\`
@@ -36,8 +36,6 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.username}
   
-
-
 `;
 }
 
