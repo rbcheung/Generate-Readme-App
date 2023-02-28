@@ -1,15 +1,15 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  [!GitHub Licence](https://img.shields.io/badge/license-${data.license}-blue.svg)
+  ![GitHub Licence](https://img.shields.io/badge/license-${data.license}-blue.svg)
   ## Description
   ${data.description}
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Licence](#license)
-  * [Contributing](#contributing)
+  * [License](#license)
+  * [Contributors](#contributors)
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
@@ -19,12 +19,12 @@ function generateMarkdown(data) {
 
   \`\`\`
   ## Usage
-  See below for screenshot of project:
+  See below for screenshot of project (use smileyface.jpg for example):
   ![alt text](${data.usage})
   ## Licence
   This project is licensed under the ${data.license} license.
-  ## Contributing
-  ${data.contributing}
+  ## Contributors
+  ${data.contributors}
   ## Tests
   To run tests, run the following command:
   \`\`\`

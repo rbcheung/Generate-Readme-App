@@ -23,19 +23,17 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message:
-      "Please explain the functionality of your project and why it was made",
+    message: "Please explain the functionality of your project and why it was created.",
   },
   {
     type: "input",
     name: "installation",
-    message: "What command should be run to install dependancies?",
+    message: "What command should be run to install dependencies?",
   },
   {
     type: "input",
     name: "usage",
-    message:
-      "please insert path to image file.",
+    message: "Please insert a file path to the image.",
   },
   {
     type: "checkbox",
@@ -51,7 +49,7 @@ const questions = [
   {
     type: "input",
     name: "tests",
-    message: "what command should be run to run tests?",
+    message: "What command should be run to run tests?",
   },
 ];
 
@@ -63,7 +61,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
   inquirer.prompt(questions).then((data) => {
-    console.log("writing file");
+    console.log("Success! Writing file...");
     writeToFile("./README.md", generateMarkdown(data));
   });
 }
