@@ -1,7 +1,7 @@
-# README GENERATOR!!!
+# Generate Readme App
   ![GitHub Licence](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Description
-  Allows users to create professional README Files quickly!
+  Allows users to create professional README files
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -22,7 +22,7 @@
   ## License
   This project is licensed under the MIT license.
   ## Contributors
-  bob, jack and jill
+  Jack and Jill
   ## Tests
   To run tests, run the following command:
   ```
