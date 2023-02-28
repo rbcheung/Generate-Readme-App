@@ -1,6 +1,7 @@
-# generator
+# README generator
+  [!GitHub Licence](https://img.shields.io/badge/license-MIT-green.svg)
   ## Description
-  create readme
+  creating README files
   ## Table of Contents
   * [Description] (#description)
   * [Installation] (#installation)
@@ -12,22 +13,26 @@
   ## Installation
   To install necessary dependencies, run the following command:
   ```
-  npm i
+  npm install
+
   ```
   ## Usage
   To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it.
   Then, using the relative filepath, add it to your README using the following syntax:
   ```md
-  ![alt text](assets/images/)
+  ![alt text](path)
   ```
   ## Licence
-  undefined
+  This project is licenced under the MIT license.
   ## Contributing
   undefined
   ## Tests
-  np i
+  To run tests, run the following command:
+  ```
+  np test
+  ```
   ## Questions
-  rbcheung
+  If you have any questions about the repo, open an issue or contact me directly at ryan_cheung@hotmail.co.uk. You can find more of my work at rbcheung
   
 
 

@@ -35,7 +35,7 @@ const questions = [
     type: "input",
     name: "usage",
     message:
-      "Provide instructions and examples for use. Include screenshots as needed.",
+      "please insert path to image file.",
   },
   {
     type: "checkbox",
@@ -46,8 +46,7 @@ const questions = [
   {
     type: "input",
     name: "contributors",
-    message: "Please list any contributors. (Use GitHub usernames)",
-    default: "",
+    message: "Please list any contributors.",
   },
   {
     type: "input",
