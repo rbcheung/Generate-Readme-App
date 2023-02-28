@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   ## Usage
   See below for screenshot of project (use smileyface.jpg for example):
   ![alt text](${data.usage})
-  ## Licence
+  ## License
   This project is licensed under the ${data.license} license.
   ## Contributors
   ${data.contributors}
