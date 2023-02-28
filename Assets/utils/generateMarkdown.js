@@ -19,11 +19,8 @@ function generateMarkdown(data) {
 
   \`\`\`
   ## Usage
-  To add a screenshot, create an "assets/images" folder in your repository and upload your screenshot to it.
-  Then, using the relative filepath, add it to your README using the following syntax:
-  \`\`\`md
+  See below for screenshot of project:
   ![alt text](${data.usage})
-  \`\`\`
   ## Licence
   This project is licensed under the ${data.license} license.
   ## Contributing
@@ -34,7 +31,7 @@ function generateMarkdown(data) {
   ${data.tests}
   \`\`\`
   ## Questions
-  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.username}
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username})
   
 `;
 }
